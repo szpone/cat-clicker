@@ -18,7 +18,5 @@ from django.contrib import admin
 
 urlpatterns = [
         url(r"", include('clicker.urls')),
-    ]
-urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+        url(r'^admin/', admin.site.urls),
 ]
